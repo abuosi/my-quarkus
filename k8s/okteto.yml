@@ -1,0 +1,8 @@
+name: my-quarkus
+image: okteto/maven:latest
+command:
+- bash
+workdir: /okteto
+forward:
+- 8080:8080
+- 5005:5005
